@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: project3,
     description:
     "A simple and responsive to-do list application that lets users add, delete, and mark tasks as completed.",
-    technologies: ["HTML", "CSS", "React.Js"],
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "portfolio Website",
