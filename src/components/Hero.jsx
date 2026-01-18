@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profile from "../assets/profileJagruti.jpg";
+import profile from "../assets/image.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -45,11 +45,11 @@ const Hero = () => {
         </div>
         <div className="flex justify-center">
           <motion.div
-            whileHover={{ y: -20, scale: 1.05 }} // Slight upward pop
+            whileHover={{ y: -20, scale: 1.05 }} 
             transition={{ duration: 0.4, ease: "easeInOut" }}
             className="flex flex-col items-center space-y-4"
           >
-            {/* Profile Image */}
+          
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
