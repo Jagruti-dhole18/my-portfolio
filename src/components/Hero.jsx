@@ -56,7 +56,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profile}
               alt="Jagruti Image"
-              className="h-[550px] w-[550px] rounded-full object-cover border-4 border-purple-500 shadow-lg"
+              className="h-[580px] w-[550px] rounded-full object-cover border-4 border-purple-500 shadow-lg"
             />
           </motion.div>
         </div>
